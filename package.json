@@ -1,0 +1,23 @@
+{
+  "name": "butter-layer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/czequeira/butter-layer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/czequeira/butter-layer/issues"
+  },
+  "homepage": "https://github.com/czequeira/butter-layer#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
