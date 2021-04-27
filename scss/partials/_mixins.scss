@@ -1,0 +1,25 @@
+@mixin populate($class-name, $property, $map, $breakpoints, $pseudo-classes) {
+  @each $name, $value in $map {
+    .#{$class-name}-#{$name} {
+      #{$property}: $value;
+    }
+  }
+
+  @each $pseudo-class-name, $pseudo-class in $pseudo-classes {
+    @each $name, $value in $map {
+      .#{$pseudo-class-name}\:#{$class-name}-#{$name}:#{$pseudo-class} {
+        #{$property}: $value;
+      }
+    }
+  }
+
+  @each $breakpoint-name, $breakpoint in $breakpoints {
+    @media (min-width: #{$breakpoint}) {
+      @each $name, $value in $map {
+        .#{$breakpoint-name}\:#{$class-name}-#{$name} {
+          #{$property}: $value;
+        }
+      }
+    }
+  }
+}
