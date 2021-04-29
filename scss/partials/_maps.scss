@@ -10,7 +10,36 @@ $pseudo-classes: (
   'hover': 'hover',
   'focus': 'focus',
   'valid': 'valid',
-  'invalid': 'invalid'
+  'invalid': 'invalid',
+  'checked': 'checked',
+  'disabled': 'disabled'
+);
+
+$border-radius: (
+  'none': 0px,
+  'sm': .25rem,
+  'md': .5rem,
+  'lg': .75rem,
+  'xl': 1rem,
+  'xxl': 1.5rem,
+  'full': 9999px
+);
+
+$border-width: (
+  'none': 0px,
+  'sm': 1px,
+  'md': 2px,
+  'lg': 3px,
+  'xl': 4px,
+  'xxl': 8px
+);
+
+$border-style: (
+  'none': none,
+  'solid': solid,
+  'dashed': dashed,
+  'dotted': dotted,
+  'double': double
 );
 
 $colours: (

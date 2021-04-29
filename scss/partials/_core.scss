@@ -1,1 +1,13 @@
 @include populate('bg', 'background-color', $colours, $breakpoints, $pseudo-classes);
+
+@include populate('border', 'border-color', $colours, $breakpoints, $pseudo-classes);
+@include populate('rounded', 'border-radius', $border-radius, $breakpoints, $pseudo-classes);
+@include populate('rounded-tl', 'border-top-left-radius', $border-radius, $breakpoints, $pseudo-classes);
+@include populate('rounded-tr', 'border-top-right-radius', $border-radius, $breakpoints, $pseudo-classes);
+@include populate('rounded-bl', 'border-bottom-left-radius', $border-radius, $breakpoints, $pseudo-classes);
+@include populate('rounded-br', 'border-bottom-right-radius', $border-radius, $breakpoints, $pseudo-classes);
+@include populate('border', 'border-width', $border-width, $breakpoints, $pseudo-classes);
+@include populate('border-t', 'border-top-width', $border-width, $breakpoints, $pseudo-classes);
+@include populate('border-b', 'border-bottom-width', $border-width, $breakpoints, $pseudo-classes);
+@include populate('border-l', 'border-left-width', $border-width, $breakpoints, $pseudo-classes);
+@include populate('border-r', 'border-right-width', $border-width, $breakpoints, $pseudo-classes);
