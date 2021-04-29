@@ -25,6 +25,19 @@ $border-radius: (
   'full': 9999px
 );
 
+$float: (
+  'none': none,
+  'right': right,
+  'left': left
+);
+
+$clear: (
+  'none': none,
+  'right': right,
+  'left': left,
+  'both': both
+);
+
 $border-width: (
   'none': 0px,
   'sm': 1px,
